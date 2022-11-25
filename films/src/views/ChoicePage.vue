@@ -10,8 +10,16 @@
   <div class="video-text">
     <h1>ВЫБЕРИТЕ ИЗ СПИСКА</h1>
     <p>Жанры, которые вы смотрели недавно</p>
-  </div>
 
+    <div class="categories-btn">
+        <button class="video-text-btn">Экшен</button>
+        <button class="video-text-btn">Боевик</button>
+        <button class="video-text-btn">Мистика</button>
+        <button class="video-text-btn">Милодрама</button>
+        <button class="video-text-btn">Ужасы</button>
+    </div>
+  </div>
+        
   
   </section>
 </template>
@@ -90,5 +98,26 @@ margin: 35px;
 .video-text>p{
 font-size: 27px;
 color: rgba(70, 115, 219, 1);
+}
+.categories-btn{
+    padding: 10px;
+}
+.video-text-btn{
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    width: 173px;
+    height: 89px;
+    margin: 11px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 500ms ease;
+    background: rgba(5, 6, 8, 0);
+}
+
+.video-text-btn:hover {
+  background: rgba(0,0,0,0);
+  border: 1px solid rgba(70, 115, 219, 1);
+  filter: drop-shadow(0px 0px 15px #4673DB);
 }
 </style>

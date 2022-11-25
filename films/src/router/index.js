@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import MainPage from '../views/MainPage.vue'
 
 
 Vue.use(VueRouter)
@@ -8,12 +9,12 @@ const routes = [
   {
     path: '/',
     name: 'main',
-    component: () => import('../views/MainPage.vue')
+    component: MainPage
   },
   {
-    path: '/',
-    name: 'choice',
-    component: () => import('../views/ChoicePage.vue')
+    path: '/choice',
+    
+    component: () => import('@/views/ChoicePage.vue')
   },
  
 ]

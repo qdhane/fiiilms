@@ -47,7 +47,7 @@ export default {
           this.isInfoPopupVisible = true;
       },
       closeInfoPopup(){
-        this.closeInfoPopup = false;
+        this.isInfoPopupVisible = false;
       }
     }
 

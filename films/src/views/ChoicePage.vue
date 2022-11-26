@@ -21,6 +21,12 @@
         <button class="video-text-btn" @click="showPopupInfo">Мистика</button>
         <button class="video-text-btn" @click="showPopupInfo">Милодрама</button>
         <button class="video-text-btn" @click="showPopupInfo">Ужасы</button>
+
+        <p>По настроению</p>
+
+        <button class="video-text-btn" @click="showPopupInfo">Весёлое</button>
+        <button class="video-text-btn" @click="showPopupInfo">Грустное</button>
+        <button class="video-text-btn" @click="showPopupInfo">Загадочное</button>
     </div>
   </div>
         
@@ -139,5 +145,9 @@ color: rgba(70, 115, 219, 1);
   background: rgba(0,0,0,0);
   border: 1px solid rgba(70, 115, 219, 1);
   filter: drop-shadow(0px 0px 15px #4673DB);
+}
+.categories-btn>p{
+  font-size: 27px;
+color: rgba(70, 115, 219, 1);
 }
 </style>

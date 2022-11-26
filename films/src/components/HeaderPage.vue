@@ -2,7 +2,7 @@
   <div>
     <header class="navbar">
         <div class="logo">
-            <a href="#"><img src="../assets/logo.svg"></a>
+           <router-link to="/"><a href="#"><img src="../assets/logo.svg"></a></router-link> 
         </div>
         <div class="menu-btm"></div>
     </header>

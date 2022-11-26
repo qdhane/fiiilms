@@ -3,7 +3,7 @@
     <Header/>
     <div class="hero-video">
     <video class="films" muted autoplay loop>
-      <source src="../assets/vid.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      <source src="../assets/vid.mp4" type='video/mp4;'>
     </video>
   </div>
 

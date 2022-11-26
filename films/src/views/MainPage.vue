@@ -2,8 +2,8 @@
   <section>
     <Header/>
     <div class="hero-video">
-    <video class="films" muted autoplay>
-      <source src="../assets/180301_15_B_KowloonPark_06.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    <video class="films" muted autoplay loop>
+      <source src="../assets/vid.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     </video>
   </div>
 

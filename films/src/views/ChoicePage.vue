@@ -1,5 +1,9 @@
 <template>
   <section>
+    <v-popup
+        v-if="isInfoPopupVisible"
+        @closePopup="closeInfoPopup"
+    />
     <Header/>
     <div class="hero-video">
     <video class="films" muted autoplay>
@@ -12,11 +16,11 @@
     <p>Жанры, которые вы смотрели недавно</p>
 
     <div class="categories-btn">
-        <button class="video-text-btn">Экшен</button>
-        <button class="video-text-btn">Боевик</button>
-        <button class="video-text-btn">Мистика</button>
-        <button class="video-text-btn">Милодрама</button>
-        <button class="video-text-btn">Ужасы</button>
+        <button class="video-text-btn" @click="showPopupInfo">Экшен</button>
+        <button class="video-text-btn" @click="showPopupInfo">Боевик</button>
+        <button class="video-text-btn" @click="showPopupInfo">Мистика</button>
+        <button class="video-text-btn" @click="showPopupInfo">Милодрама</button>
+        <button class="video-text-btn" @click="showPopupInfo">Ужасы</button>
     </div>
   </div>
         
@@ -25,10 +29,26 @@
 </template>
 
 <script>
+import vPopup from "../popup/v-popup.vue"
 import Header from "../components/HeaderPage.vue"
 export default {
     components:{
-        Header
+        Header,
+        vPopup
+    },
+    data(){
+      return{
+        isInfoPopupVisible: false
+      }
+    },
+
+    methods:{
+      showPopupInfo(){
+          this.isInfoPopupVisible = true;
+      },
+      closeInfoPopup(){
+        this.closeInfoPopup = false;
+      }
     }
 
 }

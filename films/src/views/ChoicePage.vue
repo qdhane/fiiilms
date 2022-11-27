@@ -19,19 +19,24 @@
       <form>
         <input type="text" placeholder="Ввод">
       </form>
-    </div>
 
-    <div class="flimscard">
-    
-    </div>
+      <div class="flimscard">
+          <FilmCatalog
+          v-for="film in this.$store.state.film"
+          :key="film.article"
+          :film_data="film"
+          @sendDataToParent="showChildArticleConsole"
+          />
+       </div>
 
+    </div>
   </div>
   </section>
 </template>
 
 <script>
-
-
+import { mapActions } from "vuex"
+import FilmCatalog from "../components/FilmCatalog.vue"
 import vPopup from "../popup/v-popup.vue"
 import Header from "../components/HeaderPage.vue"
 
@@ -39,7 +44,7 @@ export default {
     components:{
         Header,
         vPopup,
-        
+        FilmCatalog 
         
     },
     data(){
@@ -53,9 +58,14 @@ export default {
       },
       closeInfoPopup(){
         this.isInfoPopupVisible = false;
+      },
+      ...mapActions([
+        'GET_FILM_FROM_API'
+      ]),
+    }, 
+      mounted(){
+        this.GET_FILM_FROM_API()
       }
-    },
-
 }
 </script>
 

@@ -1,0 +1,113 @@
+{
+    "film": [
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/73cf2ed0-fd52-47a2-9e26-74104360786a/300x450",
+        "name": "Назад в будущее (1985)",
+        "rait": 8.6,
+        "available": true,
+        "category": "фантастика"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/e410c71f-baa1-4fe5-bb29-aedb4662f49b/300x450",
+        "name": "Властелин колец: Возвращение короля (2003)",
+        "rait": 8.7,
+        "available": true,
+        "category": "фэнтези"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/bf93b465-1189-4155-9dd1-cb9fb5cb1bb5/300x450",
+        "name": "1+1 (2011)",
+        "rait": 8.8,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/60aa1abc-b754-4817-ad9c-0bcda427a12b/300x450",
+        "name": "Король Лев (1994)",
+        "rait": 8.8,
+        "available": true,
+        "category": "мультфильм"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450",
+        "name": "Зеленая миля (1999)",
+        "rait": 9.1        ,
+        "available": true,
+        "category": "драма"
+      },
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450",
+        "name": "Гарри Поттер и философский камень (2001)",
+        "rait": 8.2 ,
+        "available": true,
+        "category": "фэнтези"
+      },
+    
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450",
+        "name": "Джентльмены (2019)",
+        "rait": 8.5 ,
+        "available": true,
+        "category": "комедия"
+      },
+    
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/399bb0c1-2ac5-46ca-9efd-50d8708e2809/300x450",
+        "name": "Ходячий замок (2004)",
+        "rait": 8.3 ,
+        "available": true,
+        "category": "аниме"
+      },
+    
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/ccd69a69-7405-4b41-89a8-60dd6dc2a3ee/300x450",
+        "name": "Операция «Ы» и другие приключения Шурика (1965)",
+        "rait": 8.7 ,
+        "available": true,
+        "category": "комедия"
+      },
+    
+      {
+        "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ade65029-952f-488d-87b2-20c676970151/300x450",
+        "name": "Терминатор 2: Судный день (1991)",
+        "rait": 8.3 ,
+        "available": true,
+        "category": "фантастика"
+      }
+    ]
+  }
